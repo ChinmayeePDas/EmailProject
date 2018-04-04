@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.chinmayee.emailtest.main.EmailMainTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.284 s - in com.chinmayee.emailtest.main.EmailMainTest
