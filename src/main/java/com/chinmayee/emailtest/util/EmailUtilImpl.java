@@ -25,7 +25,7 @@ public class EmailUtilImpl implements EmailUtilInterface {
         StringBuffer email = new StringBuffer();
         email.append(e.getFirstName()).append(".").append(e.getLastName());
         email.append("@").append(e.getDepartment()).append(".").append("oracle.com");
-        System.out.println("Hello World");
+        System.out.println("Hello World test");
         return email.toString();
     }
 
