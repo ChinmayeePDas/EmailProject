@@ -4,7 +4,8 @@ version: '2.2'
 
 services:
   email_project:
-    
+    build:
+        
     ports:
       - 4080:8080
       - 4443:8443
