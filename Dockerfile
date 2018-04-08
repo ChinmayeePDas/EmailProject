@@ -3,5 +3,4 @@
 # and open the template in the editor.
 FROM alpine:latest
 ADD EmailProject-1.0-SNAPSHOT.jar app.jar
-RUN sh -c 'touch /app.jar'
 ENTRYPOINT ["java","-jar","/app.jar"]

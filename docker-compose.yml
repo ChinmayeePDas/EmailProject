@@ -1,0 +1,14 @@
+## YAML Template.
+---
+version: '1.0'
+
+services:
+  email_project:
+    
+    ports:
+      - 4080:8080
+      - 4443:8443
+    
+    command: mvn -f /apps/email_project/EmailProject spring-boot:run
+
+  
