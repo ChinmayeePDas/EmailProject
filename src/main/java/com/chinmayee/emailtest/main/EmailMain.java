@@ -18,8 +18,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan("com.chinmayee.emailtest.util")
 public class EmailMain {
     public static void main(String[] args) {
-        System.out.println("Inside main1");
-        SpringApplication.run(EmailMain.class, args);
+       SpringApplication.run(EmailMain.class, args);
     }
 }
 
